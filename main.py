@@ -135,7 +135,7 @@ def main():
     running = True
     playing = False
     count = 0
-    update_frequency = 120
+    update_frequency = FPS
 
     # postions of alive cells
     current_cells = set()
