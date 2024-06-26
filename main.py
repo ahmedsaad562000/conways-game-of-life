@@ -181,13 +181,13 @@ def main():
                     playing = not playing
 
                 # reset game
-                if curr_key == pygame.K_r:
+                if curr_key == pygame.K_c:
                     current_cells = set()
                     playing = False
                     count = 0
 
                 # randomize cells' postions
-                if curr_key == pygame.K_c:
+                if curr_key == pygame.K_r:
                     current_cells = gen(random.randrange(1, 4) * GRID_WIDTH)
 
         # set screen background to grey
