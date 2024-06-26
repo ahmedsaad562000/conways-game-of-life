@@ -23,7 +23,6 @@ This repository contains a Python implementation of Conway's Game of Life using 
 1. **Clone the repository**:
    ```sh
    git clone https://github.com/ahmedsaad562000/conways-game-of-life.git
-   cd Conway
    ```
 
 2. **Create a Conda environment**:
